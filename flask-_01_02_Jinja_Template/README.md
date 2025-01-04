@@ -8,7 +8,7 @@ At the end of the this hands-on training, students will be able to;
 
 - understand client-server software architecture.
 
-- get familiar with Python Flask framework.
+- get familiar with Python Flask framework..
 
 - install Python and Flask framework on local
 
