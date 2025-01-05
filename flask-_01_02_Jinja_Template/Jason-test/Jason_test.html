@@ -1,0 +1,26 @@
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+    # Create a templates directory in the same directory as your Flask app
+    # Inside the templates directory, create a file named index.html
+    # Add the following HTML code to index.html
+
+    # index.html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flask App</title>
+    </head>
+    <body>
+        <h1>Welcome to my Flask app!</h1>
+    </body>
+    </html>
